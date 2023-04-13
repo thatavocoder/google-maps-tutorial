@@ -2,6 +2,7 @@ import { useLoadScript } from '@react-google-maps/api';
 import MapWithMarker from './components/MapWithMarker';
 import AutocompleteAddress from './components/AutocompleteAddress';
 import './App.css';
+import AreaSelect from './components/AreaSelect';
 
 function App() {
   const { isLoaded } = useLoadScript({
@@ -15,6 +16,7 @@ function App() {
           <>
             <MapWithMarker />
             <AutocompleteAddress />
+            <AreaSelect />
           </>
         ) : <h3>Loading...</h3>
       }

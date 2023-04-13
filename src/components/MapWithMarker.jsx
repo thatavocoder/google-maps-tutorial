@@ -1,10 +1,7 @@
 import { GoogleMap, MarkerF } from '@react-google-maps/api';
 
 const MapWithMarker = () => {
-  const myLatLng = {
-    lat: -31,
-    lng: 151
-  };
+  const myLatLng = { lat: 19.07, lng: 72.87 }
 
   return (
     <>

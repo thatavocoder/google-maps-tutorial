@@ -29,7 +29,7 @@ const AutocompleteAddress = () => {
         />
       </Autocomplete>
       {
-        autocomplete !== null && (
+        address !== '' && (
           <p className='autocomplete-result'>
             The place you have selected is:
             <br />
