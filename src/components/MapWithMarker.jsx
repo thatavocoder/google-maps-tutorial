@@ -8,13 +8,13 @@ const MapWithMarker = () => {
 
   return (
     <>
-      <h1>Displaying a map with a marker</h1>
+      <h1>Displaying A Map With A Marker</h1>
       <GoogleMap
         zoom={5}
         center={myLatLng}
         mapContainerClassName='map-container'
       >
-        <MarkerF position={myLatLng} />
+        <MarkerF position={myLatLng} draggable />
       </GoogleMap>
     </>
   );
