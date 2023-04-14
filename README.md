@@ -1,4 +1,4 @@
-#Blog
+# Blog
 
 You can find the tutorial blog [here](https://medium.com/@aashkadoshi/integrating-google-maps-in-your-react-app-53a9feaf56c4).
 
