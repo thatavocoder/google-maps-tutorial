@@ -1,3 +1,7 @@
+#Blog
+
+You can find the tutorial blog [here](https://medium.com/@aashkadoshi/integrating-google-maps-in-your-react-app-53a9feaf56c4).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
